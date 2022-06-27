@@ -17,7 +17,7 @@ jobs:
         steps:
             - uses: actions/checkout@v3
 
-            - name: Format, Analyze, and Build
+            - name: Install Flutter
               uses: subosito/flutter-action@v2
               with:
                   flutter-version: "3.0.3"
@@ -27,4 +27,4 @@ jobs:
             - run: flutter pub get
             - run: flutter format --output=none --set-exit-if-changed .
             - run: flutter analyze
-            - run: flutter build
+            - run: flutter build apk
