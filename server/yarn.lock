@@ -1829,9 +1829,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongoose@npm:^6.4.1":
-  version: 6.4.1
-  resolution: "mongoose@npm:6.4.1"
+"mongoose@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "mongoose@npm:6.4.2"
   dependencies:
     bson: ^4.6.2
     kareem: 2.4.1
@@ -1840,7 +1840,7 @@ __metadata:
     mquery: 4.0.3
     ms: 2.1.3
     sift: 16.0.0
-  checksum: cfbd727328cf17e628b6eafe6162cdacbe73e93092f490ed7646c00d6f1cc2b10bd7d52630f9102a925fe2137e4093155d70729547295bbdb7eb5c42dd0c4702
+  checksum: 16945de7f4f5aa1aedacba937a6f41dad0b7bd3016fc6f55957f01c0478bc9b062c3b5285d18ed642f52815c1bd6d01f9e055e899eddf5ca6aaeab38ece97894
   languageName: node
   linkType: hard
 
@@ -2420,7 +2420,7 @@ __metadata:
     argon2: ^0.28.5
     dotenv: ^16.0.1
     express: ^4.18.1
-    mongoose: ^6.4.1
+    mongoose: ^6.4.2
     nodemon: ^2.0.18
     ts-node: ^10.8.1
     ts-node-dev: ^2.0.0
